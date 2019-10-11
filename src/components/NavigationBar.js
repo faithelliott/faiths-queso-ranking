@@ -8,16 +8,13 @@ export const NavigationBar = () => (
     
     <Navbar bg="dark" variant="dark" >
         <Nav className="mr-auto">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-           
+        <Navbar.Brand>Faith's Queso Ranking</Navbar.Brand>
            <Nav.Link>
               <Link to="/">Home</Link>
             </Nav.Link>
-
             <Nav.Link>
               <Link to="/about">About</Link>
             </Nav.Link>
-         
         </Nav>
     </Navbar>
 

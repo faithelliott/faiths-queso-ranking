@@ -11,7 +11,7 @@ console.log("render");
     const queso = ({ quesos }) => {
       return (
      
-       <div>
+         <div className="divSize">
           <p>
           <Draggable>
             <div>
@@ -26,7 +26,7 @@ console.log("render");
           </p>
           <p>
           <Draggable>
-            <div>
+            <div className="divSize">
               <Card>
                   #2.Apple bees - taco topped queso
               </Card>
@@ -38,7 +38,7 @@ console.log("render");
           </p> 
           <p>
           <Draggable>
-            <div>
+            <div className="divSize">
               <Card>
                   #3.Mexican Village - Queso with taco meat
               </Card>
@@ -50,7 +50,7 @@ console.log("render");
           </p> 
           <p>
           <Draggable>
-            <div>
+            <div className="divSize">
               <Card>
                   #4.Paradisios - queso trio
  
@@ -63,7 +63,7 @@ console.log("render");
           </p> 
           <p>
           <Draggable>
-            <div>
+            <div className="divSize">
               <Card>
                   #5.Buffalo Wild Wings - Queso 
               </Card>
@@ -75,7 +75,7 @@ console.log("render");
           </p> 
           <p>
           <Draggable>
-            <div>
+            <div className="divSize">
               <Card>
                   #6.Chiles - Queso 
                 
